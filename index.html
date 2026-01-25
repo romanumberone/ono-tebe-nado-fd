@@ -27,8 +27,8 @@
       </nav>
       <a><img alt="Логотип" class="logo" src="images/logo-black.svg" /></a>
       <address class="contacts contacts__header">
-        <a class="link" href="#">+9 999 555 5555</a>
-        <a class="link" href="#">info@sobaka.ge</a>
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -37,15 +37,15 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="cover__title-text">ОНО</span>
-          <span class="cover__title-text cover__title-text_center">ТЕБЕ</span>
-          <span class="cover__title-text cover__title-text_right">НАДО</span>
+          <span class="cover__title-text">оно</span>
+          <span class="cover__title-text cover__title-text_center">тебе</span>
+          <span class="cover__title-text cover__title-text_right">надо</span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -55,9 +55,9 @@
             <a class="card-link">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h1>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -70,9 +70,9 @@
             <a class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h1>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -88,9 +88,9 @@
             <a class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h1>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -147,37 +147,35 @@
           </li>
         </ul>
       </nav>
-      <div class="social-link">
-        <ul class="nav__list nav__list_social">
-          <li class="nav__list-item">
-            <a href="#">
-              <img
-                alt="Ссылка на ютюб"
-                class="nav__list-icon_social"
-                src="images/yt.svg"
-              />
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#">
-              <img
-                alt="Ссылка в ВК"
-                class="nav__list-icon_social"
-                src="images/vk.svg"
-              />
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="#">
-              <img
-                alt="Ссылка в Пинтерест"
-                class="nav__list-icon_social"
-                src="images/pinterest.svg"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav__list nav__list_social">
+        <li class="nav__list-item">
+          <a target="_blank" href="#">
+            <img
+              alt="Ссылка на ютюб"
+              class="nav__list-icon_social"
+              src="images/yt.svg"
+            />
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a target="_blank" href="#">
+            <img
+              alt="Ссылка в ВК"
+              class="nav__list-icon_social"
+              src="images/vk.svg"
+            />
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a target="_blank" href="#">
+            <img
+              alt="Ссылка в Пинтерест"
+              class="nav__list-icon_social"
+              src="images/pinterest.svg"
+            />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
