@@ -1,24 +1,114 @@
 /* место для вашего кода */
+/* common */
+.link {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.link_current {
+  text-decoration: none;
+}
+/* nav */
+.nav__list {
+  display: flex;
+  font-size: 18px;
+  line-height: 21px;
+  list-style: circle;
+}
+
+.nav__list_header {
+  column-gap: 32px;
+}
+
+.nav__list_footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav__list-item {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  width: 148px;
+}
+
+/* contacts */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contacts__header {
+  justify-self: end;
+  width: 240px;
+}
+
+.contacts__footer {
+  width: 265px;
+}
+
+/* header*/
 .header {
-
+  display: grid;
+  height: 293px;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 0px 50px;
+  font-size: 18px;
+  line-height: 1.17;
 }
 
+/* cover */
 .cover {
-
-}
-
-.lots {
-
-}
-
-.about {
-
-}
-
-.footer {
-  
+  position: relative;
+  z-index: 0;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .description {
 
+}
+
+/* lots */
+.lots {
+  
+}
+
+/* about */
+.about {
+  
+}
+
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-self: center;
+  height: 180px;
+  margin-top: 180px;
+  padding: 0px 50px;
+}
+
+.social-link {
+  justify-self: end;
+  width: 240px;
+}
+
+.nav__list_social {
+    column-gap: 48px;
+}
+
+.nav__list-icon_social {
+    width: 48px;
+    height: 48px;
 }
